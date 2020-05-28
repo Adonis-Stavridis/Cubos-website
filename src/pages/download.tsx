@@ -22,8 +22,8 @@ class CubosDownloadPage extends Component {
 
     return (
       <React.Fragment>
-        <Jumbotron>
-          <div className="cubosDownload">
+        <Jumbotron className="download">
+          <div className="download">
             <h1>Download</h1>
             {downloadInfo(osName)}
             <h2>Installation</h2>
@@ -33,10 +33,12 @@ class CubosDownloadPage extends Component {
               <li>Run the application</li>
             </ul>
           </div>
-          <CardDeck>
-            <Card className={osName === "linux" ? "active" : ""} bg="dark">
-              <Card.Header>Linux</Card.Header>
-              <Card.Img variant="top" src={linux} />
+          <CardDeck className="download">
+            <Card
+              className={osName === "linux" ? "download active" : "download"}
+            >
+              <Card.Header className="download">Linux</Card.Header>
+              <Card.Img className="download" variant="top" src={linux} />
               <Card.Body>
                 <a href={linux} download="linux.png">
                   <Button variant="primary" size="lg" block>
@@ -45,9 +47,11 @@ class CubosDownloadPage extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <Card className={osName === "windows" ? "active" : ""} bg="dark">
-              <Card.Header>Windows</Card.Header>
-              <Card.Img variant="top" src={windows} />
+            <Card
+              className={osName === "windows" ? "download active" : "download"}
+            >
+              <Card.Header className="download">Windows</Card.Header>
+              <Card.Img className="download" variant="top" src={windows} />
               <Card.Body>
                 <a href={windows} download="windows.png">
                   <Button variant="primary" size="lg" block>
@@ -56,9 +60,11 @@ class CubosDownloadPage extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <Card className={osName === "macos" ? "active" : ""} bg="dark">
-              <Card.Header>Mac OS</Card.Header>
-              <Card.Img variant="top" src={macos} />
+            <Card
+              className={osName === "macos" ? " download active" : "download"}
+            >
+              <Card.Header className="download">Mac OS</Card.Header>
+              <Card.Img className="download" variant="top" src={macos} />
               <Card.Body>
                 <a href={macos} download="macos.png">
                   <Button variant="primary" size="lg" block>

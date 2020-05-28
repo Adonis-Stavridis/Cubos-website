@@ -1,5 +1,41 @@
+.jumbotron.download {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-deck.download {
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.download {
+  background-color: #404040;
+  max-width: 250px;
+}
+
+.card.download.active {
+  border: 2px solid cyan;
+}
+
+.card-header.download {
+  text-align: center;
+}
+
+.card-img-top.download {
+  padding: 2rem;
+}
+
 @media (max-width:991px) {
-  .cubosDownload {
+  .jumbotron.download {
+    flex-direction: column;
+  }
+
+  div.download {
     margin-bottom: 1rem;
+  }
+
+  .card-deck.download {
+    margin: auto !important;
   }
 }

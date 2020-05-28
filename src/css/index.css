@@ -2,7 +2,10 @@
   --transitionTime: 0.2s;
 }
 
+html,
 body {
+  width: 100%;
+  height: 100%;
   background-color: #282828;
   color: white;
   font-family: -apple-system,
@@ -18,6 +21,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -78,47 +87,8 @@ h1 {
   height: 20px;
 }
 
-.jumbotron {
-  display: flex;
-  flex-direction: row;
-}
-
-.card-deck {
-  margin-left: auto;
-  align-items: center;
-  justify-content: center;
-}
-
-.card {
-  max-width: 250px;
-}
-
-.card.active {
-  border: 2px solid cyan;
-}
-
-.card-header {
-  text-align: center;
-}
-
-.card-img-top {
-  padding: 2rem;
-}
-
 @media (max-width:991px) {
   .nav-link p {
     margin: 0px;
-  }
-
-  .jumbotron {
-    flex-direction: column;
-  }
-
-  .cubosDownload {
-    margin-bottom: 1rem;
-  }
-
-  .card-deck {
-    margin: auto !important;
   }
 }

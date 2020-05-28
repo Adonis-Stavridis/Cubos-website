@@ -1,0 +1,6 @@
+.jumbotron.home {
+  margin: 0;
+  flex: 1;
+  background: url(../img/gifSample.gif) no-repeat center center fixed;
+  background-size: cover;
+}
