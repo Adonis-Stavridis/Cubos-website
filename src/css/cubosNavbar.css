@@ -1,0 +1,13 @@
+.img-logo#github-logo {
+  transition: var(--transitionTime);
+}
+
+.nav-link:hover .img-logo#github-logo {
+  background-color: #707070;
+}
+
+@media (max-width:991px) {
+  .img-logo#github-logo {
+    display: none;
+  }
+}
