@@ -12,17 +12,15 @@ class CubosHomePage extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Jumbotron className="home">
-          <h1>Welcome!</h1>
-          <p>
-            Cubos is an Easy-to-Use, Git-friendly 3D Modelling Software! <br />
-          </p>
-          <Link className="btn btn-primary" to="/download">
-            Download now !
-          </Link>
-        </Jumbotron>
-      </React.Fragment>
+      <Jumbotron className="home">
+        <h1>Welcome!</h1>
+        <p>
+          Cubos is an Easy-to-Use, Git-friendly, 3D modelling software ! <br />
+        </p>
+        <Link className="btn btn-primary" to="/download">
+          Download now !
+        </Link>
+      </Jumbotron>
     );
   }
 }
