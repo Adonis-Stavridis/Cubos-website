@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cubos-website/static/css/main.8f101e9e.chunk.css",
+    "main.css": "/Cubos-website/static/css/main.ad04d0f2.chunk.css",
     "main.js": "/Cubos-website/static/js/main.b04b93bd.chunk.js",
     "main.js.map": "/Cubos-website/static/js/main.b04b93bd.chunk.js.map",
     "runtime-main.js": "/Cubos-website/static/js/runtime-main.8b117561.js",
@@ -9,10 +9,10 @@
     "static/js/2.9a321325.chunk.js": "/Cubos-website/static/js/2.9a321325.chunk.js",
     "static/js/2.9a321325.chunk.js.map": "/Cubos-website/static/js/2.9a321325.chunk.js.map",
     "index.html": "/Cubos-website/index.html",
-    "precache-manifest.e467c1e0d65ee09b1135999253811cba.js": "/Cubos-website/precache-manifest.e467c1e0d65ee09b1135999253811cba.js",
+    "precache-manifest.2cdd531d659a21e11683066ec360d168.js": "/Cubos-website/precache-manifest.2cdd531d659a21e11683066ec360d168.js",
     "service-worker.js": "/Cubos-website/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Cubos-website/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.8f101e9e.chunk.css.map": "/Cubos-website/static/css/main.8f101e9e.chunk.css.map",
+    "static/css/main.ad04d0f2.chunk.css.map": "/Cubos-website/static/css/main.ad04d0f2.chunk.css.map",
     "static/js/2.9a321325.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.9a321325.chunk.js.LICENSE.txt",
     "static/media/aboutPage.css": "/Cubos-website/static/media/aboutBackground.4e47f624.gif",
     "static/media/cubos.png": "/Cubos-website/static/media/cubos.5cb16bb1.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.8b117561.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.9a321325.chunk.js",
-    "static/css/main.8f101e9e.chunk.css",
+    "static/css/main.ad04d0f2.chunk.css",
     "static/js/main.b04b93bd.chunk.js"
   ]
 }

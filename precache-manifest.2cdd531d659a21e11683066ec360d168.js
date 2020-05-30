@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bd9f96adadda80b995ba2098f0897de",
+    "revision": "72979c6300b5669b9c31939c9bd5b67b",
     "url": "/Cubos-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cubos-website/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f818a8cffd1d456d7f56",
-    "url": "/Cubos-website/static/css/main.8f101e9e.chunk.css"
+    "revision": "96c8e93c18efbfdb12eb",
+    "url": "/Cubos-website/static/css/main.ad04d0f2.chunk.css"
   },
   {
     "revision": "2bb9ac18dd723e963489",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cubos-website/static/js/2.9a321325.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f818a8cffd1d456d7f56",
+    "revision": "96c8e93c18efbfdb12eb",
     "url": "/Cubos-website/static/js/main.b04b93bd.chunk.js"
   },
   {
