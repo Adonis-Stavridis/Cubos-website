@@ -1,28 +1,23 @@
 {
   "files": {
-    "main.css": "/Cubos-website/static/css/main.ad04d0f2.chunk.css",
-    "main.js": "/Cubos-website/static/js/main.b04b93bd.chunk.js",
-    "main.js.map": "/Cubos-website/static/js/main.b04b93bd.chunk.js.map",
-    "runtime-main.js": "/Cubos-website/static/js/runtime-main.8b117561.js",
-    "runtime-main.js.map": "/Cubos-website/static/js/runtime-main.8b117561.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/Cubos-website/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9a321325.chunk.js": "/Cubos-website/static/js/2.9a321325.chunk.js",
-    "static/js/2.9a321325.chunk.js.map": "/Cubos-website/static/js/2.9a321325.chunk.js.map",
-    "index.html": "/Cubos-website/index.html",
-    "precache-manifest.2cdd531d659a21e11683066ec360d168.js": "/Cubos-website/precache-manifest.2cdd531d659a21e11683066ec360d168.js",
-    "service-worker.js": "/Cubos-website/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/Cubos-website/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.ad04d0f2.chunk.css.map": "/Cubos-website/static/css/main.ad04d0f2.chunk.css.map",
-    "static/js/2.9a321325.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.9a321325.chunk.js.LICENSE.txt",
-    "static/media/aboutPage.css": "/Cubos-website/static/media/aboutBackground.4e47f624.gif",
-    "static/media/cubos.png": "/Cubos-website/static/media/cubos.5cb16bb1.png",
-    "static/media/homePage.css": "/Cubos-website/static/media/gifSample.9561c245.gif"
+    "main.css": "/ci-test/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ci-test/static/js/main.e584b039.chunk.js",
+    "main.js.map": "/ci-test/static/js/main.e584b039.chunk.js.map",
+    "runtime-main.js": "/ci-test/static/js/runtime-main.c8af7622.js",
+    "runtime-main.js.map": "/ci-test/static/js/runtime-main.c8af7622.js.map",
+    "static/js/2.4dab2239.chunk.js": "/ci-test/static/js/2.4dab2239.chunk.js",
+    "static/js/2.4dab2239.chunk.js.map": "/ci-test/static/js/2.4dab2239.chunk.js.map",
+    "index.html": "/ci-test/index.html",
+    "precache-manifest.72040fde8a4ee2e98f8dd725f286cd8b.js": "/ci-test/precache-manifest.72040fde8a4ee2e98f8dd725f286cd8b.js",
+    "service-worker.js": "/ci-test/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ci-test/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4dab2239.chunk.js.LICENSE.txt": "/ci-test/static/js/2.4dab2239.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ci-test/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b117561.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9a321325.chunk.js",
-    "static/css/main.ad04d0f2.chunk.css",
-    "static/js/main.b04b93bd.chunk.js"
+    "static/js/runtime-main.c8af7622.js",
+    "static/js/2.4dab2239.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.e584b039.chunk.js"
   ]
 }
