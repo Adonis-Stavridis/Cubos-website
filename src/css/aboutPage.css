@@ -1,6 +1,6 @@
 .jumbotron.about {
   margin: 0;
   flex: 1;
-  background: url(../img/aboutBackground.gif)no-repeat center center fixed;
-  background-size: cover;
+  /* background: url(../img/aboutBackground.gif)no-repeat center center fixed;
+  background-size: cover; */
 }
