@@ -1,4 +1,7 @@
-# Cubos-website ![Deploy](https://github.com/Adonis-Stavridis/Cubos-website/workflows/Deploy/badge.svg)
+# Cubos-website
+
+![Deploy](https://github.com/Adonis-Stavridis/Cubos-website/workflows/Deploy/badge.svg)
+![Test](https://github.com/Adonis-Stavridis/Cubos-website/workflows/Test/badge.svg)
 
 This project is the [website](https://adonis-stavridis.github.io/Cubos-website/)
 for the Cubos project.
