@@ -80,7 +80,41 @@ class CubosDownloadPage extends Component {
   }
 }
 
-function setOS(): String {
+export function downloadInfo(osName: String): JSX.Element {
+  if (osName === "linux" || osName === "windows" || osName === "macos") {
+    const os = getOS(osName);
+    return (
+      <React.Fragment>
+        <p data-testid="pDownloadInfo">
+          According to your Operating System, it is recommended you download the{" "}
+          <b>{os}</b> version of Cubos!
+        </p>
+        <a href={getFile(osName)} download={osName + ".png"}>
+          <Button variant="primary" size="lg" block>
+            Download for {os}
+          </Button>
+        </a>
+        <br />
+      </React.Fragment>
+    );
+  }
+  if (osName === "mobile")
+    return (
+      <p data-testid="pDownloadInfo">
+        Sorry! There are no available versions of this software for Mobile!{" "}
+        <br /> You can download any of the available versions, yet it is not
+        recommended!
+      </p>
+    );
+  return (
+    <p data-testid="pDownloadInfo">
+      Sorry! You're Operating System could not be detected. <br /> You can
+      download any of the available versions, yet it is not recommended!
+    </p>
+  );
+}
+
+export function setOS(): String {
   var userAgent = window.navigator.userAgent,
     platform = window.navigator.platform,
     macosPlatforms = ["Macintosh", "MacIntel", "MacPPC", "Mac68K"],
@@ -105,7 +139,7 @@ function setOS(): String {
   return os;
 }
 
-function getOS(osName: String): String {
+export function getOS(osName: String): String {
   switch (osName) {
     case "linux":
       return "Linux";
@@ -119,7 +153,7 @@ function getOS(osName: String): String {
   }
 }
 
-function getFile(osName: String): string {
+export function getFile(osName: String): string {
   switch (osName) {
     case "linux":
       return linux;
@@ -131,40 +165,6 @@ function getFile(osName: String): string {
     default:
       return "";
   }
-}
-
-function downloadInfo(osName: String): JSX.Element {
-  if (osName === "linux" || osName === "windows" || osName === "macos") {
-    const os = getOS(osName);
-    return (
-      <React.Fragment>
-        <p>
-          According to your Operating System, it is recommended you download the{" "}
-          <b>{os}</b> version of Cubos!
-        </p>
-        <a href={getFile(osName)} download={osName + ".png"}>
-          <Button variant="primary" size="lg" block>
-            Download for {os}
-          </Button>
-        </a>
-        <br />
-      </React.Fragment>
-    );
-  }
-  if (osName === "mobile")
-    return (
-      <p>
-        Sorry! There are no available versions of this software for Mobile!{" "}
-        <br /> You can download any of the available versions, yet it is not
-        recommended!
-      </p>
-    );
-  return (
-    <p>
-      Sorry! You're Operating System could not be detected. <br /> You can
-      download any of the available versions, yet it is not recommended!
-    </p>
-  );
 }
 
 export default CubosDownloadPage;

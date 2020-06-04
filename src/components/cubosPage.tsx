@@ -4,7 +4,7 @@ import "../css/cubosPage.css";
 class CubosPage extends Component {
   state = {};
   render() {
-    return <div className="cubos-page">{this.props.children}</div>;
+    return <div className="cubos-page" data-testid="divCubosPage">{this.props.children}</div>;
   }
 }
 
