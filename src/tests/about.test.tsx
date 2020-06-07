@@ -7,7 +7,7 @@ import App from "../components/app";
 
 afterEach(cleanup);
 
-test("Render Home Page", () => {
+test("Render About Page", () => {
   const history = createHashHistory();
   history.push("about");
 
