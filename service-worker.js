@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Cubos-website/precache-manifest.e22d5156565dcf4d1fa1cf3a68fa53c6.js"
+  "/Cubos-website/precache-manifest.8b8a209532de493d4bcdbccf34319f0b.js"
 );
 
 self.addEventListener('message', (event) => {

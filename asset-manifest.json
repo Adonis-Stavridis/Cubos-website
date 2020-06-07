@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Cubos-website/static/css/main.3f5cc85e.chunk.css",
-    "main.js": "/Cubos-website/static/js/main.b50bb450.chunk.js",
-    "main.js.map": "/Cubos-website/static/js/main.b50bb450.chunk.js.map",
+    "main.css": "/Cubos-website/static/css/main.e2de09ad.chunk.css",
+    "main.js": "/Cubos-website/static/js/main.5c657365.chunk.js",
+    "main.js.map": "/Cubos-website/static/js/main.5c657365.chunk.js.map",
     "runtime-main.js": "/Cubos-website/static/js/runtime-main.8b117561.js",
     "runtime-main.js.map": "/Cubos-website/static/js/runtime-main.8b117561.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Cubos-website/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9a321325.chunk.js": "/Cubos-website/static/js/2.9a321325.chunk.js",
-    "static/js/2.9a321325.chunk.js.map": "/Cubos-website/static/js/2.9a321325.chunk.js.map",
+    "static/js/2.8a4c476e.chunk.js": "/Cubos-website/static/js/2.8a4c476e.chunk.js",
+    "static/js/2.8a4c476e.chunk.js.map": "/Cubos-website/static/js/2.8a4c476e.chunk.js.map",
     "index.html": "/Cubos-website/index.html",
-    "precache-manifest.e22d5156565dcf4d1fa1cf3a68fa53c6.js": "/Cubos-website/precache-manifest.e22d5156565dcf4d1fa1cf3a68fa53c6.js",
+    "precache-manifest.8b8a209532de493d4bcdbccf34319f0b.js": "/Cubos-website/precache-manifest.8b8a209532de493d4bcdbccf34319f0b.js",
     "service-worker.js": "/Cubos-website/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Cubos-website/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.3f5cc85e.chunk.css.map": "/Cubos-website/static/css/main.3f5cc85e.chunk.css.map",
-    "static/js/2.9a321325.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.9a321325.chunk.js.LICENSE.txt",
+    "static/css/main.e2de09ad.chunk.css.map": "/Cubos-website/static/css/main.e2de09ad.chunk.css.map",
+    "static/js/2.8a4c476e.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.8a4c476e.chunk.js.LICENSE.txt",
     "static/media/cubos.png": "/Cubos-website/static/media/cubos.5cb16bb1.png",
     "static/media/homePage.css": "/Cubos-website/static/media/gifSample.9561c245.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.8b117561.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9a321325.chunk.js",
-    "static/css/main.3f5cc85e.chunk.css",
-    "static/js/main.b50bb450.chunk.js"
+    "static/js/2.8a4c476e.chunk.js",
+    "static/css/main.e2de09ad.chunk.css",
+    "static/js/main.5c657365.chunk.js"
   ]
 }
