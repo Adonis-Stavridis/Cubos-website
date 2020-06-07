@@ -12,7 +12,7 @@ class CubosAboutPage extends Component {
 
   render() {
     return (
-      <Jumbotron className="about">
+      <Jumbotron className="about" data-testid="jumbotronAboutPage">
         <h1>What is Cubos ?</h1>
         <p>
           Cubos is a 3D modelling Software ! <br />

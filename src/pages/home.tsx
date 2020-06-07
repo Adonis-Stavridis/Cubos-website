@@ -12,7 +12,7 @@ class CubosHomePage extends Component {
 
   render() {
     return (
-      <Jumbotron className="home">
+      <Jumbotron className="home" data-testid="jumbotronHomePage">
         <h1>Welcome!</h1>
         <p>
           Cubos is an Easy-to-Use, Git-friendly, 3D modelling software ! <br />
