@@ -22,7 +22,7 @@ class CubosDownloadPage extends Component {
 
     return (
       <React.Fragment>
-        <Jumbotron className="download">
+        <Jumbotron className="download" data-testid="jumbotronDownloadPage">
           <div className="download">
             <h1>Download</h1>
             {downloadInfo(osName)}
@@ -33,7 +33,7 @@ class CubosDownloadPage extends Component {
               <li>Run the application</li>
             </ul>
           </div>
-          <CardDeck className="download">
+          <CardDeck className="download" data-testid="cardDeckDownloadPage">
             <Card
               className={osName === "linux" ? "download active" : "download"}
             >

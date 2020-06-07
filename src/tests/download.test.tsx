@@ -1,13 +1,25 @@
 import React from "react";
+import { Router } from "react-router-dom";
+import { createHashHistory } from "history";
 import { render, cleanup } from "@testing-library/react";
-import CubosDownloadPage, {
-  setOS,
-  getOS,
-  getFile,
-  downloadInfo,
-} from "../pages/download";
+import App from "../components/app";
+import { setOS, getOS, getFile, downloadInfo } from "../pages/download";
 
 afterEach(cleanup);
+
+test("Render Download Page", () => {
+  const history = createHashHistory();
+  history.push("download");
+
+  const { getByTestId } = render(
+    <Router history={history}>
+      <App />
+    </Router>
+  );
+
+  expect(getByTestId("jumbotronDownloadPage")).toBeInTheDocument();
+  expect(getByTestId("cardDeckDownloadPage")).toBeInTheDocument();
+});
 
 test("Render Desktop Download Info", () => {
   const { getByTestId } = render(downloadInfo("linux"));
