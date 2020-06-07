@@ -2,7 +2,6 @@ import React from "react";
 import { Router } from "react-router-dom";
 import { createHashHistory } from "history";
 import { render, cleanup, fireEvent } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
 import App from "../components/app";
 
 afterEach(cleanup);
