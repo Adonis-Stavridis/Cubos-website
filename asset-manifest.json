@@ -1,27 +1,23 @@
 {
   "files": {
-    "main.css": "/Cubos-website/static/css/main.e2de09ad.chunk.css",
-    "main.js": "/Cubos-website/static/js/main.5c657365.chunk.js",
-    "main.js.map": "/Cubos-website/static/js/main.5c657365.chunk.js.map",
-    "runtime-main.js": "/Cubos-website/static/js/runtime-main.8b117561.js",
-    "runtime-main.js.map": "/Cubos-website/static/js/runtime-main.8b117561.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/Cubos-website/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8a4c476e.chunk.js": "/Cubos-website/static/js/2.8a4c476e.chunk.js",
-    "static/js/2.8a4c476e.chunk.js.map": "/Cubos-website/static/js/2.8a4c476e.chunk.js.map",
-    "index.html": "/Cubos-website/index.html",
-    "precache-manifest.8b8a209532de493d4bcdbccf34319f0b.js": "/Cubos-website/precache-manifest.8b8a209532de493d4bcdbccf34319f0b.js",
-    "service-worker.js": "/Cubos-website/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/Cubos-website/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.e2de09ad.chunk.css.map": "/Cubos-website/static/css/main.e2de09ad.chunk.css.map",
-    "static/js/2.8a4c476e.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.8a4c476e.chunk.js.LICENSE.txt",
-    "static/media/cubos.png": "/Cubos-website/static/media/cubos.5cb16bb1.png",
-    "static/media/homePage.css": "/Cubos-website/static/media/gifSample.9561c245.gif"
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.bb1a2760.chunk.js",
+    "main.js.map": "/static/js/main.bb1a2760.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b6e31e5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b6e31e5.js.map",
+    "static/js/2.abddc77d.chunk.js": "/static/js/2.abddc77d.chunk.js",
+    "static/js/2.abddc77d.chunk.js.map": "/static/js/2.abddc77d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2e2a89220061147951c5170ddc2b9578.js": "/precache-manifest.2e2a89220061147951c5170ddc2b9578.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.abddc77d.chunk.js.LICENSE.txt": "/static/js/2.abddc77d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b117561.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8a4c476e.chunk.js",
-    "static/css/main.e2de09ad.chunk.css",
-    "static/js/main.5c657365.chunk.js"
+    "static/js/runtime-main.9b6e31e5.js",
+    "static/js/2.abddc77d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bb1a2760.chunk.js"
   ]
 }
