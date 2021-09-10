@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Cubos-website/static/css/main.0789e8b1.chunk.css",
-    "main.js": "/Cubos-website/static/js/main.6c670a94.chunk.js",
-    "main.js.map": "/Cubos-website/static/js/main.6c670a94.chunk.js.map",
+    "main.js": "/Cubos-website/static/js/main.bfa5d781.chunk.js",
+    "main.js.map": "/Cubos-website/static/js/main.bfa5d781.chunk.js.map",
     "runtime-main.js": "/Cubos-website/static/js/runtime-main.2d623c48.js",
     "runtime-main.js.map": "/Cubos-website/static/js/runtime-main.2d623c48.js.map",
     "static/css/2.61b4cb56.chunk.css": "/Cubos-website/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.e205f0a4.chunk.js": "/Cubos-website/static/js/2.e205f0a4.chunk.js",
-    "static/js/2.e205f0a4.chunk.js.map": "/Cubos-website/static/js/2.e205f0a4.chunk.js.map",
+    "static/js/2.13df15e0.chunk.js": "/Cubos-website/static/js/2.13df15e0.chunk.js",
+    "static/js/2.13df15e0.chunk.js.map": "/Cubos-website/static/js/2.13df15e0.chunk.js.map",
     "index.html": "/Cubos-website/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/Cubos-website/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.0789e8b1.chunk.css.map": "/Cubos-website/static/css/main.0789e8b1.chunk.css.map",
-    "static/js/2.e205f0a4.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.e205f0a4.chunk.js.LICENSE.txt",
+    "static/js/2.13df15e0.chunk.js.LICENSE.txt": "/Cubos-website/static/js/2.13df15e0.chunk.js.LICENSE.txt",
     "static/media/homePage.css": "/Cubos-website/static/media/gifSample.0ccf0311.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.2d623c48.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.e205f0a4.chunk.js",
+    "static/js/2.13df15e0.chunk.js",
     "static/css/main.0789e8b1.chunk.css",
-    "static/js/main.6c670a94.chunk.js"
+    "static/js/main.bfa5d781.chunk.js"
   ]
 }
